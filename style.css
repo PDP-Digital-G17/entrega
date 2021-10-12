@@ -26,7 +26,7 @@ body {
     /* asignen aquí las tipografías y colores para todo texto */
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    background: var(--segundocolor);
+    background: var(--tercercolor);
     color: var(--colorclaro);
 }
 
@@ -120,12 +120,12 @@ aside {
 }
 
 footer {
-    color: var(--segundocolor);
+    color: var(--tercercolor);
 }
 
 footer a {
     text-decoration: none;
-    color: var(--segundocolor);
+    color: var(--primercolor);
 }
 
 footer a:hover {
