@@ -198,14 +198,14 @@
         <script>
             var ctx = document.getElementById("nuestroGrafico");
             var nuestroGrafico = new Chart(ctx, {
-                type: "line",
+                type: "pie",
                 data: {
-                    labels: ["Red", "Blue", "Yellow", "Green", "Cyan", "Magenta"],
+                    labels: ["Riego", "Industrial", "Doméstico"],
                     datasets: [
                         {
-                            label: "# of Votes",
-                            data: [12, 19, 3, 5, 2, 3],
-                            backgroundColor: ["#FF0000", "#0000FF", "#FFFF00", "#00FF00", "#00FFFF", "#FF00FF"],
+                            label: "Estimación del uso de aguas dulces",
+                            data: [70, 20, 10],
+                            backgroundColor: ["#6C9FBB", "#FF5442", "#E4B997"],
                             borderWidth: 1,
                         },
                     ],
