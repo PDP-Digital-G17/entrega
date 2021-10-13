@@ -151,7 +151,7 @@ footer a:hover {
 .modal-content {
     border: none;
     border-radius: 0 0;
-    color: var(--coloroscuro);
+    color: var(--primercolor);
 }
 
 .modal-header h4.modal-title {
