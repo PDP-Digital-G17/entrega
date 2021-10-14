@@ -130,12 +130,12 @@ aside {
 .footer-gradient {
     height: 20px;
     width: 100%;
-    background: var(--coloroscuro);
-    background: linear-gradient(0deg, var(--coloroscuro) 0%, var(--coloroscuro) 35%, var(--segundocolor) 100%);
+    background: var(--tercercolor);
+    background: linear-gradient(0deg, var(--tercercolor) 0%, var(--tercercolor) 35%, var(--segundocolor) 100%);
 }
 
 footer {
-    background-color: var(--coloroscuro);
+    background-color: var(--tercercolor);
     color: var(--tercercolor);
 }
 
