@@ -34,6 +34,14 @@ strong {
     font-weight: 700;
 }
 
+h3 {
+    color: var(--tercercolor);
+}
+
+p.lead {
+    color: var(--primercolor);
+}
+
 h1,
 h2,
 h3,
@@ -102,9 +110,9 @@ Con tales colores, la imagen sirve de transición a la parte que ofrece más inf
 --------------------------------------------------------------------------------------------- */
 
 main {
-    background-image: url("img/iconosfinal-04.png");
+    background-image: url("img/abajo-04.png");
     background-position: center bottom;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     background-size: 100% auto;
 }
 
@@ -119,7 +127,15 @@ aside {
     color: var(--tercercolor);
 }
 
+.footer-gradient {
+    height: 20px;
+    width: 100%;
+    background: var(--coloroscuro);
+    background: linear-gradient(0deg, var(--coloroscuro) 0%, var(--coloroscuro) 35%, var(--segundocolor) 100%);
+}
+
 footer {
+    background-color: var(--coloroscuro);
     color: var(--tercercolor);
 }
 
